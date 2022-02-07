@@ -1,0 +1,4 @@
+outs:
+- md5: 1e351d4ed737b6cd6a6890000cc09615
+  size: 65404963
+  path: trained_model.pkl

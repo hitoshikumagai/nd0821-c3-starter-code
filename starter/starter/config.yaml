@@ -1,0 +1,5 @@
+main:
+  model_pth: ../model/trained_model.pkl
+model:
+  label: label
+  test_size: 0.2

@@ -1,5 +1,10 @@
+import yaml
 from sklearn.metrics import fbeta_score, precision_score, recall_score
 from sklearn.ensemble import RandomForestClassifier as Model
+
+with open('config.yaml','rb') as yml:
+    config = yaml.safe_load(yml)
+
 
 # Optional: implement hyperparameter tuning.
 def train_model(X_train, y_train):
@@ -19,7 +24,7 @@ def train_model(X_train, y_train):
     model
         Trained machine learning model.
     """
-    model = Model()
+    model = Model(config['model']['random_state'])
     model.fit(X_train, y_train)
     return model
 

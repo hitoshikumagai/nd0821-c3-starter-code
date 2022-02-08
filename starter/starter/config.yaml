@@ -1,5 +1,5 @@
 main:
-  data_pth: ../data/census.csv
+  data_pth: ../data/census_cleaned.csv
   model_pth: ../model/trained_model.pkl
 model:
   label: salary

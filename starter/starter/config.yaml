@@ -1,6 +1,8 @@
 main:
   data_pth: ../data/census_cleaned.csv
   model_pth: ../model/trained_model.pkl
+  log_pth: ../logs/census_train.log
 model:
   label: salary
   test_size: 0.2
+  random_state: 42

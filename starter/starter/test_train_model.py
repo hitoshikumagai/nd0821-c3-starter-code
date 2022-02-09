@@ -1,14 +1,19 @@
+"""
+[summary]
+
+"""
 import pandas as pd
-import yaml 
+import yaml
 
 with open('config.yaml','rb') as yml:
     config = yaml.safe_load(yml)
 
-df = pd.read_csv(config['main']['data_pth'])
+data = pd.read_csv(config['main']['data_pth'])
 
-def test_extract_data(df):
+def test_extract_data(data):
     try:
-        df.shape[0]>0
-        df.shape[1]>0
-    except:
+        assert data.shape[0]>0
+        assert data.shape[1]>0
+    except AssertionError as error:
         print('Error')
+        raise error

@@ -4,7 +4,6 @@
 """
 import pandas as pd
 from pytest import fixture
-import yaml
 import logging
 
 with open('config.yaml','rb') as yml:

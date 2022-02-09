@@ -1,7 +1,0 @@
-root - INFO - Extract cleaned data by config parameter
-root - INFO - Splitting data for test-train input
-root - INFO - Encode data to create train dataset
-root - INFO - Encode data to create test dataset
-root - INFO - Create inference model by train data
-root - INFO - Save inference model to model directory
-root - INFO - Make prefdiction and print model metrics

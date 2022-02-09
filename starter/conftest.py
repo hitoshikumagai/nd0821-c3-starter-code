@@ -13,6 +13,6 @@ def data():
     Returns:
         [type]: [description]
     """
-    data = pd.read_csv('../data/census_cleaned.csv')
+    data = pd.read_csv('data/census_cleaned.csv')
     
     return data

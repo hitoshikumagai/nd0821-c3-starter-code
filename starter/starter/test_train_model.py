@@ -6,11 +6,9 @@ import pandas as pd
 from pytest import fixture
 import logging
 
-with open('config.yaml','rb') as yml:
-    config = yaml.safe_load(yml)
 
 logging.basicConfig(
-    filename=config['main']['log_pth'],
+    filename='../logs/census_train.log',
     level=logging.INFO,
     filemode='w',
     format='%(name)s - %(levelname)s - %(message)s')

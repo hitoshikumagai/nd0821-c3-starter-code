@@ -1,3 +1,8 @@
+"""
+Process extracted data to input model
+Date: Feb 2022
+Author: Hitoshi Kumagai
+"""
 import numpy as np
 from sklearn.preprocessing import LabelBinarizer, OneHotEncoder
 

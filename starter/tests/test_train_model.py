@@ -1,18 +1,29 @@
 """
 [summary]
-
+Author: Hitoshi Kumagai
+Date: Feb. 2022
 """
 import pandas as pd
+import pytest
 from pytest import fixture
 import logging
 
 
 logging.basicConfig(
-    filename='/logs/census_train.log',
+    filename='../logs/census_train.log',
     level=logging.INFO,
     filemode='w',
     format='%(name)s - %(levelname)s - %(message)s')
 
+@pytest.fixture(scope='session')
+def data():
+    """[summary]
+    Returns:
+        [type]: [description]
+    """
+    data = pd.read_csv('../data/census_cleaned.csv')
+    
+    return data
 
 def test_extract_data(data:pd.DataFrame):
     """[summary]

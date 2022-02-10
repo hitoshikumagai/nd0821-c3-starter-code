@@ -37,8 +37,7 @@ jobs:
         aws-session-token: ${{ secrets.aws_session_token }}
         aws-region: us-west-2
     - uses: actions/checkout@v2
-    - name: Set-up DVC
-      uses: iterative/setup-dvc@v1
+    - uses: iterative/setup-dvc@v1
     - name: Pull data
       run: |
         dvc remote add -d -f s3remote s3://udacity-mlops4-project

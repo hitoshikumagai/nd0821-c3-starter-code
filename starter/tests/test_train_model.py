@@ -14,13 +14,13 @@ logging.basicConfig(
     filemode='w',
     format='%(name)s - %(levelname)s - %(message)s')
 
-@pytest.fixture(scope='session')
+@pytest.fixture(scope='module')
 def data():
     """[summary]
     Returns:
         [type]: [description]
     """
-    data = pd.read_csv('starter/data/census_cleaned.csv')
+    data = pd.read_csv('../data/census_cleaned.csv')
     
     return data
 

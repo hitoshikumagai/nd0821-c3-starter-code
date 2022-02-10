@@ -7,7 +7,6 @@ import pandas as pd
 import pytest
 from pytest import fixture
 import logging
-import yaml
 
 with open('config.yaml','rb') as yml:
     config = yaml.safe_load(yml)

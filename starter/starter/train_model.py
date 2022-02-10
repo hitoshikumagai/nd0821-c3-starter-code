@@ -3,8 +3,13 @@
 Author: 
 Date: 
 """
+"""
+Script to train machine learning model.
+Author Hitoshi Kumagain
+Data Feb 2022
+""" 
 
-# Script to train machine learning model.
+# Add the necessary imports for the starter code.
 import yaml
 import pickle
 import logging
@@ -14,12 +19,11 @@ from ml.data import process_data
 from ml.model import train_model,compute_model_metrics,inference
 from sklearn.model_selection import train_test_split
 
-# Add the necessary imports for the starter code.
-
-
+# Load yaml file to get config parameter
 with open('config.yaml','rb') as yml:
     config = yaml.safe_load(yml)
 
+# Set logging function default parameter
 logging.basicConfig(
     filename=config['main']['log_pth'],
     level=logging.INFO,

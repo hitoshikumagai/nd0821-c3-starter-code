@@ -1,6 +1,6 @@
 python
 numpy
-pandas
+pandas==1.2.3
 scikit-learn
 pytest
 requests

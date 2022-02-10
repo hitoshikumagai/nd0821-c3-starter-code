@@ -1,0 +1,9 @@
+main:
+  test:
+    data_pth: ../data/census_cleaned.csv
+    model_pth: ../model/trained_model.pkl
+    log_pth: ../logs/census_train.log
+  online: 
+    data_pth: starter/data/census_cleaned.csv
+    model_pth: starter/model/trained_model.pkl
+    log_pth: starter/logs/census_train.log

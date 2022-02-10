@@ -8,9 +8,6 @@ import pytest
 from pytest import fixture
 import logging
 
-with open('config.yaml','rb') as yml:
-    config = yaml.safe_load(yml)
-
 logging.basicConfig(
     filename='starter/logs/census_train.log',
     level=logging.INFO,

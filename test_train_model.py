@@ -9,7 +9,7 @@ from pytest import fixture
 import logging
 
 logging.basicConfig(
-    filename='starter/logs/census_train.log',
+    filename='./starter/logs/census_train.log',
     level=logging.INFO,
     filemode='w',
     format='%(name)s - %(levelname)s - %(message)s')
@@ -20,7 +20,7 @@ def data():
     Returns:
         [type]: [description]
     """
-    data = pd.read_csv('starter/data/census_cleaned.csv')
+    data = pd.read_csv('./starter/data/census_cleaned.csv')
     
     return data
 

@@ -41,7 +41,7 @@ jobs:
     - name: Pull data
       run: |
         dvc remote add -d -f s3remote s3://udacity-mlops4-project
-        dvc pull
+        dvc pull -f
     - uses: actions/checkout@v2
     - name: Lint with flake8
       run: |

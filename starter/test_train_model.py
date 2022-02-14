@@ -7,6 +7,7 @@ import pandas as pd
 import pytest
 from pytest import fixture
 import logging
+import starter.ml.train_model as ml
 
 logging.basicConfig(
     filename='./logs/census_train.log',
@@ -38,3 +39,7 @@ def test_extract_data(data:pd.DataFrame):
     except FileNotFoundError as error:
         logging.warning('Input data is not extracted.')
         raise error
+
+"""_Under study_
+https://www.notion.so/Model-9635b3701cf44a9485879c56ed60e6ba
+"""

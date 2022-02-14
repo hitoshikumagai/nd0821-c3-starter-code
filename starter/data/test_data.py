@@ -7,10 +7,9 @@ import pandas as pd
 import pytest
 from pytest import fixture
 import logging
-import starter.ml.train_model as ml
 
 logging.basicConfig(
-    filename='./logs/census_train.log',
+    filename='../logs/census_train.log',
     level=logging.INFO,
     filemode='w',
     format='%(name)s - %(levelname)s - %(message)s')
@@ -21,7 +20,7 @@ def data():
     Returns:
         [type]: [description]
     """
-    data = pd.read_csv('./data/census_cleaned.csv')
+    data = pd.read_csv('census_cleaned.csv')
     
     return data
 

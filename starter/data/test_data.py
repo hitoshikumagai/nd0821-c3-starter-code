@@ -9,18 +9,18 @@ from pytest import fixture
 import logging
 
 logging.basicConfig(
-    filename='../logs/census_train.log',
+    filename='../logs/census_data.log',
     level=logging.INFO,
     filemode='w',
     format='%(name)s - %(levelname)s - %(message)s')
 
-@pytest.fixture(scope='module')
+@pytest.fixture(scope='session')
 def data():
     """[summary]
     Returns:
         [type]: [description]
     """
-    data = pd.read_csv('census_cleaned.csv')
+    data = pd.read_csv('starter/data/census_cleaned.csv')
     
     return data
 

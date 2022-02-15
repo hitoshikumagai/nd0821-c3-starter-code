@@ -5,3 +5,4 @@ root - INFO - Encode data to create test dataset
 root - INFO - Create inference model by train data
 root - INFO - Save inference model to model directory
 root - INFO - Make prefdiction and print model metrics
+root - INFO - Make prefdiction for sliced data and print model metrics

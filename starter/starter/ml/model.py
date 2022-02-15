@@ -1,4 +1,5 @@
 import yaml
+import numpy as np
 from sklearn.metrics import fbeta_score, precision_score, recall_score
 from sklearn.ensemble import RandomForestClassifier as Model
 
@@ -67,3 +68,14 @@ def inference(model, X):
     """
     preds = model.predict(X)
     return preds
+
+
+def compute_metrics_sliced_category(model, X, y, category_lst:list):
+    for idx, category in enumerate(category_lst):
+        u, indices = np.unique(X[idx], return_inverse =True)
+        for indice in  indices:
+            # todo udacityの教材をもう一度見てみる
+#            print(category, X[:,indice])
+#            preds = inference(model, X[:, indice])
+#            return compute_model_metrics(y[indice], preds)
+

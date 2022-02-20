@@ -68,17 +68,3 @@ def inference(model, X):
     """
     preds = model.predict(X)
     return preds
-
-
-def compute_metrics_sliced_category(model, X, y, category_lst:list):
-    print(f"All: {X.shape}")
-# todo:行列のサイズを意図したように指定できているかを確認
-    for idx, category in enumerate(category_lst):
-        u, indices = np.unique(X[idx], return_inverse =True)
-        print(category, len(u), X[:,indices].shape)
-#        for indice in  indices:
-            # todo udacityの教材をもう一度見てみる
-#            print(category, X[:,indice].shape)
-#            preds = inference(model, X[:, indice])
-#            return compute_model_metrics(y[indice], preds)
-

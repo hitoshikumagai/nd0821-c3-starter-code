@@ -3,6 +3,15 @@ main:
   model_pth: ../model/trained_model.pkl
   log_pth: ../logs/census_train.log
 model:
+  cat_features:
+    - workclass
+    - education
+    - marital-status
+    - occupation
+    - relationship
+    - race
+    - sex
+    - native-country
   label: salary
   test_size: 0.2
   random_state: 42

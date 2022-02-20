@@ -12,7 +12,7 @@ import logging
 import pandas as pd
 import numpy as np
 from ml.data import process_data
-from ml.model import train_model,compute_model_metrics,inference,compute_metrics_sliced_category
+from ml.model import train_model,compute_model_metrics,inference
 from sklearn.model_selection import train_test_split
 
 # Load yaml file to get config parameter
@@ -34,16 +34,8 @@ logging.info("Extract cleaned data by config parameter")
 train, test = train_test_split(data, test_size=config['model']['test_size'])
 logging.info("Splitting data for test-train input")
 
-cat_features = [
-    "workclass",
-    "education",
-    "marital-status",
-    "occupation",
-    "relationship",
-    "race",
-    "sex",
-    "native-country",
-]
+cat_features = config['model']['cat_features']
+logging.info("Load category feature label from config parameter")
 
 X_train, y_train, encoder, lb = process_data(
     train, categorical_features=cat_features, label=config['model']['label'], training=True
@@ -67,10 +59,5 @@ logging.info('Save inference model to model directory')
 preds = inference(model,X_test)
 precision, recall, fbeta =compute_model_metrics(y_test, preds)
 logging.info('Make prefdiction and print model metrics')
-
-print(f"Precision:{precision:.3f}, Recall:{recall:.3f}, F1 value:{fbeta:.3f}")
-
-compute_metrics_sliced_category(model, X_test,y_test,cat_features)
-logging.info('Make prefdiction for sliced data and print model metrics')
 
 print(f"Precision:{precision:.3f}, Recall:{recall:.3f}, F1 value:{fbeta:.3f}")

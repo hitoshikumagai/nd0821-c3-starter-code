@@ -1,7 +1,308 @@
 root - INFO - Extract cleaned data by config parameter
+root - INFO - Load category feature label from config parameter
+root - INFO - Load inference model from model directory
 root - INFO - Splitting data for test-train input
 root - INFO - Encode data to create train dataset
+root - INFO - Splitting data for test-train input
 root - INFO - Encode data to create test dataset
-root - INFO - Create inference model by train data
-root - INFO - Save inference model to model directory
+root - INFO - Make prefdiction and print model metrics
+root - INFO - Splitting data for test-train input
+root - INFO - Encode data to create test dataset
+root - INFO - Make prefdiction and print model metrics
+root - INFO - Splitting data for test-train input
+root - INFO - Encode data to create test dataset
+root - INFO - Make prefdiction and print model metrics
+root - INFO - Splitting data for test-train input
+root - INFO - Encode data to create test dataset
+root - INFO - Make prefdiction and print model metrics
+root - INFO - Splitting data for test-train input
+root - INFO - Encode data to create test dataset
+root - INFO - Make prefdiction and print model metrics
+root - INFO - Splitting data for test-train input
+root - INFO - Encode data to create test dataset
+root - INFO - Make prefdiction and print model metrics
+root - INFO - Splitting data for test-train input
+root - INFO - Encode data to create test dataset
+root - INFO - Make prefdiction and print model metrics
+root - INFO - Splitting data for test-train input
+root - INFO - Encode data to create test dataset
+root - INFO - Make prefdiction and print model metrics
+root - INFO - Splitting data for test-train input
+root - INFO - Encode data to create test dataset
+root - INFO - Make prefdiction and print model metrics
+root - INFO - Splitting data for test-train input
+root - INFO - Encode data to create test dataset
+root - INFO - Make prefdiction and print model metrics
+root - INFO - Splitting data for test-train input
+root - INFO - Encode data to create test dataset
+root - INFO - Make prefdiction and print model metrics
+root - INFO - Splitting data for test-train input
+root - INFO - Encode data to create test dataset
+root - INFO - Make prefdiction and print model metrics
+root - INFO - Splitting data for test-train input
+root - INFO - Encode data to create test dataset
+root - INFO - Make prefdiction and print model metrics
+root - INFO - Splitting data for test-train input
+root - INFO - Encode data to create test dataset
+root - INFO - Make prefdiction and print model metrics
+root - INFO - Splitting data for test-train input
+root - INFO - Encode data to create test dataset
+root - INFO - Make prefdiction and print model metrics
+root - INFO - Splitting data for test-train input
+root - INFO - Encode data to create test dataset
+root - INFO - Make prefdiction and print model metrics
+root - INFO - Splitting data for test-train input
+root - INFO - Encode data to create test dataset
+root - INFO - Make prefdiction and print model metrics
+root - INFO - Splitting data for test-train input
+root - INFO - Encode data to create test dataset
+root - INFO - Make prefdiction and print model metrics
+root - INFO - Splitting data for test-train input
+root - INFO - Encode data to create test dataset
+root - INFO - Make prefdiction and print model metrics
+root - INFO - Splitting data for test-train input
+root - INFO - Encode data to create test dataset
+root - INFO - Make prefdiction and print model metrics
+root - INFO - Splitting data for test-train input
+root - INFO - Encode data to create test dataset
+root - INFO - Make prefdiction and print model metrics
+root - INFO - Splitting data for test-train input
+root - INFO - Encode data to create test dataset
+root - INFO - Make prefdiction and print model metrics
+root - INFO - Splitting data for test-train input
+root - INFO - Encode data to create test dataset
+root - INFO - Make prefdiction and print model metrics
+root - INFO - Splitting data for test-train input
+root - INFO - Encode data to create test dataset
+root - INFO - Make prefdiction and print model metrics
+root - INFO - Splitting data for test-train input
+root - INFO - Encode data to create test dataset
+root - INFO - Make prefdiction and print model metrics
+root - INFO - Splitting data for test-train input
+root - INFO - Encode data to create test dataset
+root - INFO - Make prefdiction and print model metrics
+root - INFO - Splitting data for test-train input
+root - INFO - Encode data to create test dataset
+root - INFO - Make prefdiction and print model metrics
+root - INFO - Splitting data for test-train input
+root - INFO - Encode data to create test dataset
+root - INFO - Make prefdiction and print model metrics
+root - INFO - Splitting data for test-train input
+root - INFO - Encode data to create test dataset
+root - INFO - Make prefdiction and print model metrics
+root - INFO - Splitting data for test-train input
+root - INFO - Encode data to create test dataset
+root - INFO - Make prefdiction and print model metrics
+root - INFO - Splitting data for test-train input
+root - INFO - Encode data to create test dataset
+root - INFO - Make prefdiction and print model metrics
+root - INFO - Splitting data for test-train input
+root - INFO - Encode data to create test dataset
+root - INFO - Make prefdiction and print model metrics
+root - INFO - Splitting data for test-train input
+root - INFO - Encode data to create test dataset
+root - INFO - Make prefdiction and print model metrics
+root - INFO - Splitting data for test-train input
+root - INFO - Encode data to create test dataset
+root - INFO - Make prefdiction and print model metrics
+root - INFO - Splitting data for test-train input
+root - INFO - Encode data to create test dataset
+root - INFO - Make prefdiction and print model metrics
+root - INFO - Splitting data for test-train input
+root - INFO - Encode data to create test dataset
+root - INFO - Make prefdiction and print model metrics
+root - INFO - Splitting data for test-train input
+root - INFO - Encode data to create test dataset
+root - INFO - Make prefdiction and print model metrics
+root - INFO - Splitting data for test-train input
+root - INFO - Encode data to create test dataset
+root - INFO - Make prefdiction and print model metrics
+root - INFO - Splitting data for test-train input
+root - INFO - Encode data to create test dataset
+root - INFO - Make prefdiction and print model metrics
+root - INFO - Splitting data for test-train input
+root - INFO - Encode data to create test dataset
+root - INFO - Make prefdiction and print model metrics
+root - INFO - Splitting data for test-train input
+root - INFO - Encode data to create test dataset
+root - INFO - Make prefdiction and print model metrics
+root - INFO - Splitting data for test-train input
+root - INFO - Encode data to create test dataset
+root - INFO - Make prefdiction and print model metrics
+root - INFO - Splitting data for test-train input
+root - INFO - Encode data to create test dataset
+root - INFO - Make prefdiction and print model metrics
+root - INFO - Splitting data for test-train input
+root - INFO - Encode data to create test dataset
+root - INFO - Make prefdiction and print model metrics
+root - INFO - Splitting data for test-train input
+root - INFO - Encode data to create test dataset
+root - INFO - Make prefdiction and print model metrics
+root - INFO - Splitting data for test-train input
+root - INFO - Encode data to create test dataset
+root - INFO - Make prefdiction and print model metrics
+root - INFO - Splitting data for test-train input
+root - INFO - Encode data to create test dataset
+root - INFO - Make prefdiction and print model metrics
+root - INFO - Splitting data for test-train input
+root - INFO - Encode data to create test dataset
+root - INFO - Make prefdiction and print model metrics
+root - INFO - Splitting data for test-train input
+root - INFO - Encode data to create test dataset
+root - INFO - Make prefdiction and print model metrics
+root - INFO - Splitting data for test-train input
+root - INFO - Encode data to create test dataset
+root - INFO - Make prefdiction and print model metrics
+root - INFO - Splitting data for test-train input
+root - INFO - Encode data to create test dataset
+root - INFO - Make prefdiction and print model metrics
+root - INFO - Splitting data for test-train input
+root - INFO - Encode data to create test dataset
+root - INFO - Make prefdiction and print model metrics
+root - INFO - Splitting data for test-train input
+root - INFO - Encode data to create test dataset
+root - INFO - Make prefdiction and print model metrics
+root - INFO - Splitting data for test-train input
+root - INFO - Encode data to create test dataset
+root - INFO - Make prefdiction and print model metrics
+root - INFO - Splitting data for test-train input
+root - INFO - Encode data to create test dataset
+root - INFO - Make prefdiction and print model metrics
+root - INFO - Splitting data for test-train input
+root - INFO - Encode data to create test dataset
+root - INFO - Make prefdiction and print model metrics
+root - INFO - Splitting data for test-train input
+root - INFO - Encode data to create test dataset
+root - INFO - Make prefdiction and print model metrics
+root - INFO - Splitting data for test-train input
+root - INFO - Encode data to create test dataset
+root - INFO - Make prefdiction and print model metrics
+root - INFO - Splitting data for test-train input
+root - INFO - Encode data to create test dataset
+root - INFO - Make prefdiction and print model metrics
+root - INFO - Splitting data for test-train input
+root - INFO - Encode data to create test dataset
+root - INFO - Make prefdiction and print model metrics
+root - INFO - Splitting data for test-train input
+root - INFO - Encode data to create test dataset
+root - INFO - Make prefdiction and print model metrics
+root - INFO - Splitting data for test-train input
+root - INFO - Encode data to create test dataset
+root - INFO - Make prefdiction and print model metrics
+root - INFO - Splitting data for test-train input
+root - INFO - Encode data to create test dataset
+root - INFO - Make prefdiction and print model metrics
+root - INFO - Splitting data for test-train input
+root - INFO - Encode data to create test dataset
+root - INFO - Make prefdiction and print model metrics
+root - INFO - Splitting data for test-train input
+root - INFO - Encode data to create test dataset
+root - INFO - Make prefdiction and print model metrics
+root - INFO - Splitting data for test-train input
+root - INFO - Encode data to create test dataset
+root - INFO - Make prefdiction and print model metrics
+root - INFO - Splitting data for test-train input
+root - INFO - Encode data to create test dataset
+root - INFO - Make prefdiction and print model metrics
+root - INFO - Splitting data for test-train input
+root - INFO - Encode data to create test dataset
+root - INFO - Make prefdiction and print model metrics
+root - INFO - Splitting data for test-train input
+root - INFO - Encode data to create test dataset
+root - INFO - Make prefdiction and print model metrics
+root - INFO - Splitting data for test-train input
+root - INFO - Encode data to create test dataset
+root - INFO - Make prefdiction and print model metrics
+root - INFO - Splitting data for test-train input
+root - INFO - Encode data to create test dataset
+root - INFO - Make prefdiction and print model metrics
+root - INFO - Splitting data for test-train input
+root - INFO - Encode data to create test dataset
+root - INFO - Make prefdiction and print model metrics
+root - INFO - Splitting data for test-train input
+root - INFO - Encode data to create test dataset
+root - INFO - Make prefdiction and print model metrics
+root - INFO - Splitting data for test-train input
+root - INFO - Encode data to create test dataset
+root - INFO - Make prefdiction and print model metrics
+root - INFO - Splitting data for test-train input
+root - INFO - Encode data to create test dataset
+root - INFO - Make prefdiction and print model metrics
+root - INFO - Splitting data for test-train input
+root - INFO - Encode data to create test dataset
+root - INFO - Make prefdiction and print model metrics
+root - INFO - Splitting data for test-train input
+root - INFO - Encode data to create test dataset
+root - INFO - Make prefdiction and print model metrics
+root - INFO - Splitting data for test-train input
+root - INFO - Encode data to create test dataset
+root - INFO - Make prefdiction and print model metrics
+root - INFO - Splitting data for test-train input
+root - INFO - Encode data to create test dataset
+root - INFO - Make prefdiction and print model metrics
+root - INFO - Splitting data for test-train input
+root - INFO - Encode data to create test dataset
+root - INFO - Make prefdiction and print model metrics
+root - INFO - Splitting data for test-train input
+root - INFO - Encode data to create test dataset
+root - INFO - Make prefdiction and print model metrics
+root - INFO - Splitting data for test-train input
+root - INFO - Encode data to create test dataset
+root - INFO - Make prefdiction and print model metrics
+root - INFO - Splitting data for test-train input
+root - INFO - Encode data to create test dataset
+root - INFO - Make prefdiction and print model metrics
+root - INFO - Splitting data for test-train input
+root - INFO - Encode data to create test dataset
+root - INFO - Make prefdiction and print model metrics
+root - INFO - Splitting data for test-train input
+root - INFO - Encode data to create test dataset
+root - INFO - Make prefdiction and print model metrics
+root - INFO - Splitting data for test-train input
+root - INFO - Encode data to create test dataset
+root - INFO - Make prefdiction and print model metrics
+root - INFO - Splitting data for test-train input
+root - INFO - Encode data to create test dataset
+root - INFO - Make prefdiction and print model metrics
+root - INFO - Splitting data for test-train input
+root - INFO - Encode data to create test dataset
+root - INFO - Make prefdiction and print model metrics
+root - INFO - Splitting data for test-train input
+root - INFO - Encode data to create test dataset
+root - INFO - Make prefdiction and print model metrics
+root - INFO - Splitting data for test-train input
+root - INFO - Encode data to create test dataset
+root - INFO - Make prefdiction and print model metrics
+root - INFO - Splitting data for test-train input
+root - INFO - Encode data to create test dataset
+root - INFO - Make prefdiction and print model metrics
+root - INFO - Splitting data for test-train input
+root - INFO - Encode data to create test dataset
+root - INFO - Make prefdiction and print model metrics
+root - INFO - Splitting data for test-train input
+root - INFO - Encode data to create test dataset
+root - INFO - Make prefdiction and print model metrics
+root - INFO - Splitting data for test-train input
+root - INFO - Encode data to create test dataset
+root - INFO - Make prefdiction and print model metrics
+root - INFO - Splitting data for test-train input
+root - INFO - Encode data to create test dataset
+root - INFO - Make prefdiction and print model metrics
+root - INFO - Splitting data for test-train input
+root - INFO - Encode data to create test dataset
+root - INFO - Make prefdiction and print model metrics
+root - INFO - Splitting data for test-train input
+root - INFO - Encode data to create test dataset
+root - INFO - Make prefdiction and print model metrics
+root - INFO - Splitting data for test-train input
+root - INFO - Encode data to create test dataset
+root - INFO - Make prefdiction and print model metrics
+root - INFO - Splitting data for test-train input
+root - INFO - Encode data to create test dataset
+root - INFO - Make prefdiction and print model metrics
+root - INFO - Splitting data for test-train input
+root - INFO - Encode data to create test dataset
+root - INFO - Make prefdiction and print model metrics
+root - INFO - Splitting data for test-train input
+root - INFO - Encode data to create test dataset
 root - INFO - Make prefdiction and print model metrics

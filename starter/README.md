@@ -63,6 +63,8 @@ To use your new S3 bucket from the AWS CLI you will need to create an IAM user w
     * Hint: the data has names with hyphens and Python does not allow those as variable names. Do not modify the column names in the csv and instead use the functionality of FastAPI/Pydantic/etc to deal with this.
 * Write 3 unit tests to test the API (one for the GET and two for POST, one that tests each prediction).
 
+```uvicorn main:app --reload```
+
 ## API Deployment
 
 * Create a free Heroku account (for the next steps you can either use the web GUI or download the Heroku CLI).
